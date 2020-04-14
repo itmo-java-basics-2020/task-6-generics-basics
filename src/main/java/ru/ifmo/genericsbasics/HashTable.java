@@ -1,16 +1,16 @@
 package ru.ifmo.genericsbasics;
 
-public class HashTable {
+public class HashTable<K, V> {
 
-    Object put(Object key, Object value) {
+    V put(K key, V value) {
         throw new UnsupportedOperationException();
     }
 
-    Object get(Object key) {
+    V get(K key) {
         throw new UnsupportedOperationException();
     }
 
-    Object remove(Object key) {
+    V remove(K key) {
         throw new UnsupportedOperationException();
     }
 
